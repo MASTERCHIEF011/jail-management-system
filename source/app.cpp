@@ -1,14 +1,15 @@
-/*
-@author:YashKumarVerma
-@desc:Entry of application
-*/
+/**
+ * @author: Harsh Pandey
+ * @desc: Entry Point of Application
+ */
+
 #include<iostream>
+#include"./../includes/login/login.h"
 
 using namespace std;
 
 int main(){
-
-    
-return 0;
-
+	Login loginHandler;
+	loginHandler.renderLoginScreen();
+	return 0;
 }
