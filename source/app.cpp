@@ -11,5 +11,6 @@ using namespace std;
 int main(){
 	Login loginHandler;
 	loginHandler.renderLoginScreen();
+
 	return 0;
 }
