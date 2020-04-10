@@ -2,7 +2,8 @@
 #define CMD
 
 #include<iostream>
-#include"./../db/db.h"
+#include"./../database/database.h"
+// #include"./../db/db.h"
 using namespace std;
 
 class CMD_WIND{
