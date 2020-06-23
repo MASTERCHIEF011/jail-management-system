@@ -1,0 +1,15 @@
+|        Name        |  Blood Group  |        Crime        |     Medical History     |       DOB       |               Address               |   Gender   |  Duration  |    Age    |
+
+|Max Payne           |O+             |Murder               |Allergic to Nuts         |17/12/1978       |14-uptop Downing Street              |Male        |5 Years     |42 Years   |
+|Shilp Patel         |B-             |Avoids Videocall     |Depressed Due to Bae     |26/10/2001       |Gujrat                               |Male        |45 Years    |18 Years   |
+|Utkarsh shukla      |O-             |Vandalism            |Aids                     |24/10/2001       |Jammu                                |TransGender |99 Years    |18         |
+|Lucifer Morningstar |B	             |Cannibalism          |None                     |N/A              |UnderWorld                           |Male        |Lifetime    |Immortal   |
+|Olivia		     |O+             |Speeding             |Celiac Disease           |16/12/1999       |777 Brockton Avenue, Abington MA 2351|Female	  |99 Years    |21         |
+|Ruby      	     |A              |Terrorism            |Rheumatoid Arthritis     |13/05/2002       |30 Memorial Drive, Avon MA 2322      |Female  	  |99 Years    |33         |
+|Emily		     |AB-            |Drug Trafficking     |Crohn's & Colitis        |30/07/1984       |700 Oak Street, Brockton MA 2301     |Female 	  |99 Years    |42         |
+|Simran Singh        |A              |Too Much Indepenent  |Lupus                    |N/A              |591 Memorial Dr, Chicopee MA 1020    |Female 	  |99 Years    |19         |
+|Shrishty Singh      |O+             |Cyber Bullying       |Influenza                |04/10/2007       |780 Lynnway, Lynn MA 1905            |Female	  |99 Years    |19         |
+|Chavi Pathak        |B+             |Embezzlement in Ludo |Camera Addict            |15/11/2000       |301 Falls Blvd, Quincy MA 2169       |Female	  |99 Years    |19         |
+|Matthew	     |AB             |Fraud	           |Cancer                   |24/10/2001       |100 Charlton Road, Sturbridge MA 1566|Male	  |99 Years    |18         |
+|bhadwesh            |h              |g                    |h                        |g                |h                                    |g           |g           |h          |
+|bla                 |ad             |sds                  |sds                      |sds              |ss                                   |n/a         |99 years    |10         |

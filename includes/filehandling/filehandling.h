@@ -1,16 +1,13 @@
 #ifndef FileHandling
 #define FileHandling
 
-#include<iostream>
-#include<fstream>
+#include <iostream>
+#include <fstream>
 using namespace std;
-class fh{
-    private:
-
-    public:
-        fstream Database;
-        //creating function to be called when data is stored
-        void AddInputDataToFile();
-
+class fh
+{
+private:
+public:
+    static void AddInputDataToFile(); //creating function to be called when data is stored
 };
 #endif

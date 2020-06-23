@@ -1,3 +1,4 @@
+//diplays output in different colours based on the result. eg: gives red for error
 #include<string>
 #include"rainbow.h"
 

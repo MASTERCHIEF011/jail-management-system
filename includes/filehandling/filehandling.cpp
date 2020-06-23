@@ -1,10 +1,10 @@
-#include<iostream>
-#include"filehandling.h"
+#include <iostream>
+#include "filehandling.h"
 
 using namespace std;
 
-void AddInputDataToFile(){
+void AddInputDataToFile()
+{
     fstream Database;
-    Database.open("Data.txt",ios::out);
-
+    Database.open("Data.txt", ios::out);
 }

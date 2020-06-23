@@ -1,69 +1,84 @@
-#include<iostream>
-#include"./../database/database.h"
-// #include"./../db/db.h"
-#include"Homescreen.h"
+#include <iostream>
+#include "Homescreen.h"
+#include "./../db/db.h"
 
 using namespace std;
 
+void CMD_WIND::MainMenu()
+{
+    int ch, ch1;
 
-void CMD_WIND::MainMenu(){
-        int ch; 
-        cout<<"1) View Convict Details"<<endl;
-        cout<<"2) Edit Convict Details"<<endl;
-        cout<<"3) Visitor Data"<<endl;
-        cout<<"4) Prisoner Parole Details"<<endl;
-        cout<<"5) Security Settings"<<endl;
-        cout<<"6) Exit"<<endl;
-        do {
-        cout<<"Enter choice: "<<endl;
-        cin>>ch;
-        switch(ch) {
-            case 1: {   
-                
-                db::DisplayPrisonerData();
-                break;
-            }
-            case 2: {
-                cout<<"1) Add Prisoner Details"<<endl;
-                cout<<"2) Delete Prisoner Details"<<endl;
-                cout<<"3) Go Back"<<endl;
-                do{
-                    cout<<"Enter Choice"<<endl;
-                    cin>>ch;
-                    switch(ch){
-                        case 1:{
-                            db::AddPrisonerData();
-                        }
-                        case 2:{
-                            db::DeletePrisonerData();
-                        }
-                        default:{
-                            CMD_WIND::MainMenu();
-                        }
-                    }
-                }while(ch!=3);
-            }
-            
-            case 3: {
-                db::DisplayVisitorData();
-                break;
-            }
-            case 4: {
-                db::DisplayParoleDetails();
-                break;
-            }
-            case 5: {
-                db::SecuritySettings();
-                break;
-            }
-            
-            case 6: {
-                cout<<"Exit"<<endl;
-                break;
-            }
-            default: {
-                cout<<"Invalid Choice"<<endl;
-            }
-      }
-   }while(ch!=6); 
+    do
+    {
+        cout << "********************************************************************************************************************************************************************************************************" << endl;
+        cout << "" << endl;
+        cout << "" << endl;
+        cout << "**********************************************" << endl;
+        cout << "*            1) View Convict Details         *" << endl;
+        cout << "*            2) Edit Convict Details         *" << endl;
+        cout << "*            3) Change Password              *" << endl;
+        cout << "*            4) Exit                         *" << endl;
+        cout << "**********************************************" << endl;
+        cout << "" << endl;
+        cout << "" << endl;
+        cout << "********************************************************************************************************************************************************************************************************" << endl;
+        cout << "Enter choice: " << endl;
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+        {
+
+            db::DisplayPrisonerData();
+            break;
+        }
+        case 2:
+        {
+            cout << "***********************************************"<< endl;
+            cout << "*          1) Add Prisoner Details            *"<< endl;
+            cout << "*          2) Delete Prisoner Details         *"<< endl;
+            cout << "*          3) Go Back                         *"<< endl;
+            cout << "***********************************************"<< endl;
+            do
+            {
+                cout << "Enter Choice" << endl;
+                cin >> ch1;
+                switch (ch1)
+                {
+                case 1:
+                {
+                    db::AddPrisonerData();
+                    break;
+                }
+                case 2:
+                {
+                    db::DeletePrisonerData();
+                    break;
+                }
+                case 3:
+                {
+                    //CMD_WIND::MainMenu();
+                    break;
+                }
+                }
+            } while (ch1 != 3);
+            break;
+        }
+
+        case 3:
+        {
+            db::SecuritySettings();
+            break;
+        }
+
+        case 4:
+        {
+            break;
+        }
+        default:
+        {
+            cout << "Invalid Choice" << endl;
+        }
+        }
+    } while (ch != 4);
 }
